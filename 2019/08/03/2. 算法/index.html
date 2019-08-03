@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019/8 | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="2. 算法2.1 数据结构与算法之间的关系数据结构应用于算法之中 2.2 算法的定义解决问题的步骤，指令的有限序列，每条指令表示一个或多个操作 2.3 算法的特性 输入输出：可以没有输入，但至少要有一个输出 有穷性：有限步骤 确定性：每一步骤的确定的含义 可行性：得到正确结果  2.4 算法设计要求 正确性：没有语法错误，合法输入得到合理结果，不合法输入得到一定说明 健壮性 可读性 时间效率高，存">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2019/08/index.html">
+<meta property="og:url" content="http://yoursite.com/2019/08/03/2. 算法/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="2. 算法2.1 数据结构与算法之间的关系数据结构应用于算法之中 2.2 算法的定义解决问题的步骤，指令的有限序列，每条指令表示一个或多个操作 2.3 算法的特性 输入输出：可以没有输入，但至少要有一个输出 有穷性：有限步骤 确定性：每一步骤的确定的含义 可行性：得到正确结果  2.4 算法设计要求 正确性：没有语法错误，合法输入得到合理结果，不合法输入得到一定说明 健壮性 可读性 时间效率高，存">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-08-02T05:24:09.563Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="2. 算法2.1 数据结构与算法之间的关系数据结构应用于算法之中 2.2 算法的定义解决问题的步骤，指令的有限序列，每条指令表示一个或多个操作 2.3 算法的特性 输入输出：可以没有输入，但至少要有一个输出 有穷性：有限步骤 确定性：每一步骤的确定的含义 可行性：得到正确结果  2.4 算法设计要求 正确性：没有语法错误，合法输入得到合理结果，不合法输入得到一定说明 健壮性 可读性 时间效率高，存">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,91 +154,178 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-2. 算法" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="2-算法"><a href="#2-算法" class="headerlink" title="2. 算法"></a>2. 算法</h1><h2 id="2-1-数据结构与算法之间的关系"><a href="#2-1-数据结构与算法之间的关系" class="headerlink" title="2.1 数据结构与算法之间的关系"></a>2.1 数据结构与算法之间的关系</h2><p>数据结构应用于算法之中</p>
+<h2 id="2-2-算法的定义"><a href="#2-2-算法的定义" class="headerlink" title="2.2 算法的定义"></a>2.2 算法的定义</h2><p>解决问题的步骤，指令的有限序列，每条指令表示一个或多个操作</p>
+<h2 id="2-3-算法的特性"><a href="#2-3-算法的特性" class="headerlink" title="2.3 算法的特性"></a>2.3 算法的特性</h2><ul>
+<li>输入输出：可以没有输入，但至少要有一个输出</li>
+<li>有穷性：有限步骤</li>
+<li>确定性：每一步骤的确定的含义</li>
+<li>可行性：得到正确结果</li>
+</ul>
+<h2 id="2-4-算法设计要求"><a href="#2-4-算法设计要求" class="headerlink" title="2.4 算法设计要求"></a>2.4 算法设计要求</h2><ul>
+<li>正确性：没有语法错误，合法输入得到合理结果，不合法输入得到一定说明</li>
+<li>健壮性</li>
+<li>可读性</li>
+<li>时间效率高，存储量低</li>
+</ul>
+<h2 id="2-5-算法效率的度量方法"><a href="#2-5-算法效率的度量方法" class="headerlink" title="2.5 算法效率的度量方法"></a>2.5 算法效率的度量方法</h2><ul>
+<li>事后统计方法：测试数据，统计时间，缺陷大</li>
+<li>事前分析估算方法：算法好坏，问题的输入规模</li>
+</ul>
+<h2 id="2-6-算法的时间复杂度"><a href="#2-6-算法的时间复杂度" class="headerlink" title="2.6 算法的时间复杂度"></a>2.6 算法的时间复杂度</h2><p>总执行次数<strong>T(n)</strong>是关于问题规模<strong>n</strong>的函数，<strong>T(n)=O(f(n))</strong>，<strong>T(n)</strong>增长最慢的是最优算法</p>
+<p>大<strong><em>O</em></strong>推导法</p>
+<ul>
+<li>常数阶<strong><em>O(1)</em></strong></li>
+<li>线性阶<strong><em>O(n)</em></strong></li>
+<li>平方阶<strong><em>O(n^2)</em></strong></li>
+<li>对数阶<strong><em>O(logn)</em></strong></li>
+<li>等等</li>
+</ul>
+<p>平均与最坏时间复杂度</p>
+<h2 id="2-7-算法的空间复杂度"><a href="#2-7-算法的空间复杂度" class="headerlink" title="2.7 算法的空间复杂度"></a>2.7 算法的空间复杂度</h2><p>空间复杂度<strong>S(n)</strong>是关于问题规模<strong>n</strong>的函数，<strong>S(n)=O(f(n))</strong></p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/03/3. 线性表/" class="archive-article-date">
-  	<time datetime="2019-08-03T06:32:32.169Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-03</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/08/03/2. 算法/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/03/2. 算法/" class="archive-article-date">
-  	<time datetime="2019-08-03T06:32:32.167Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-03</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/08/02/hello-world/" class="archive-article-date">
-  	<time datetime="2019-08-02T01:28:10.467Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-02</time>
-</a>
-        </div>
-    	 
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/08/02/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2019/08/03/3. 线性表/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
   
+  
+    <a href="/2019/08/02/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+        
+        
+    </div>
+</aside>
+
+
+
   
   
-    </div></section>
   
 
-    
+  
+
+  
+
+  
 
 
           </div>
@@ -257,8 +348,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
